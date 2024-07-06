@@ -131,3 +131,8 @@ small-container{
  .col-4:hover{
     transform: translateY(-5px);
  }
+.small-container{
+    background: linear-gradient(#fff,#1A5319) ;
+    margin-top: 80px;
+    padding: 30px 0;
+}
