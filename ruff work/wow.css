@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/michael-dale.png);
+}
+.container__box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: #02020264;
+    padding:24px 12px;
+    display:flex;
+    border-radius: 5px;
+}
+h1{
+ color: #ffff;
+ margin-bottom: 16px;
+}
+p{
+    color:#ffff;
+}
+.signup input{
+  width: 240px;
+  outline: none;
+  margin: 4px 2px;
+  padding: 6px 10px ;
+  border-radius: 12px;
+  border: none;
+}
+.btn_lg{
+    background-color:#ffff ;
+    color: black;
+    outline: none;
+    border:none;
+    border-radius: 12px;
+    padding: 8px 28px;
+}
+.login{
+    color: #ffff;
+    text-align: center;
+    padding:24px 32px;
+}
+.border_btn{
+    padding:6px 42px;
+    outline: none;
+    border-color:#ffff;
+    background-color: transparent;
+    color: #ffff;
+    border-radius: 12px;
+    margin: 2px 4px;
+}
